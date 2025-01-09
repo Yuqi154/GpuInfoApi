@@ -3,13 +3,11 @@ package org.hiedacamellia.gpuinfoapi.example;
 
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
-import net.neoforged.neoforge.client.event.InputEvent;
 import org.hiedacamellia.gpuinfoapi.GpuInfoApi;
 import org.hiedacamellia.gpuinfoapi.core.gpu.IGpuMemory;
 import org.hiedacamellia.gpuinfoapi.core.gpu.IUtilization;
 import org.hiedacamellia.gpuinfoapi.core.gpu.device.IDevice;
 import org.hiedacamellia.gpuinfoapi.core.gpu.platform.IPlatform;
-import org.lwjgl.glfw.GLFW;
 
 @OnlyIn(Dist.CLIENT)
 public class Example {
